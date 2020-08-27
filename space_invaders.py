@@ -1,7 +1,7 @@
 import sys
 import pygame
 
-class AlienInvasion:
+class SpaceInvaders:
     """Overall class to manage game assets and behavior."""
 
     def __init__(self):
@@ -9,7 +9,7 @@ class AlienInvasion:
         pygame.init()
 
         self.screen = pygame.display.set_mode((1200,800))
-        pygame.display.set_caption("Alien Invasion")
+        pygame.display.set_caption("Space Invaders")
 
         def run_game(self):
             """Start the main game loop."""
@@ -24,5 +24,5 @@ class AlienInvasion:
 
     if __name__ == '__main__':
         # Make a game instance, and run the game.
-        ai = AlienInvasion()
+        ai = SpaceInvaders()
         ai.run_game()
