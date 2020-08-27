@@ -1,2 +1,2 @@
-# alien_invasion
+# space_invaders
 Simple Python shooting game made with pygame
